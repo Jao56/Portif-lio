@@ -1,0 +1,100 @@
+.capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 15rem 15rem;
+    background-color: var(--Cor-Background);
+}
+.capa_texto-titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.capa_titulo{
+    color: var(--Cor-Texto);
+    font-family: "McLaren";
+    font-size: 73px;
+    padding:1rem 5rem 1rem;
+    text-align: center;
+    font-weight: 300;
+    
+}
+.capa_titulo-negrito{
+    font-weight: bold;
+}
+.capa_subtitulo{
+    color: var(--Cor-Subtitulo);
+    font-family: "McLaren";
+    font-size: 30px;
+    padding:1rem 5rem;
+    text-align: center;
+    font-weight: 400;
+   
+}
+.capa_paragrafo{
+    color: var(--Cor-Titulo);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 25px;
+    padding: 4rem;
+    text-align: center;
+}
+.capa_img{
+    width: 450px;
+    padding: 5px;
+    transition: 0.7s;
+}
+.capa_img:hover{
+    transform: scale(1.1);
+}
+.capa_botoes{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.capa_redes{
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    transition: 0.7s;
+    
+}
+.capa_redes:hover{
+    background-color: var(--Cor-Hover);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--Cor-Sombra);
+    transform: scale(1.3);
+}
+.capa_logos{
+    width: 40px;
+}
+
+@media (max-width: 1366px) {
+    .capa{
+        padding: 10rem 2rem;
+    }
+}
+@media (max-width: 950px) {
+    .capa{
+        flex-direction: column;
+    }
+    .capa_img{
+        padding: 5rem;
+    }
+}
+@media (max-width: 500px){
+    .capa{
+        padding: 5rem 1rem;
+    }
+    .capa_img{
+        width: 250px;
+        padding: 2rem;
+    }
+    .capa_subtitulo{
+        padding: 1rem 2rem;
+    }
+    .capa_paragrafo{
+        padding: 2rem 1rem;
+    }
+}

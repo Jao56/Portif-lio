@@ -1,0 +1,62 @@
+.cabecalho{
+    background-color: var(--Cor-Principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 3rem;
+}
+.cabecalho_titulo{
+    text-decoration: none;
+}
+.cabecalho_texto{
+    color: var(--Cor-Titulo);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--Fonte-Titulo);
+    text-transform: uppercase;
+}
+.imagem_home{
+    display: none;
+    width: 50px;
+}
+.cabecalho_opcoes{
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho__botao{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.cabecalho__botao:hover{
+    background-color: var(--Cor-Hover);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--Cor-Sombra);
+}
+.cabecalho_subtitulo{
+    color: var(--Cor-Subtitulo);
+    font-family: "McLaren";
+    font-size: 20px;
+}
+.imagem_botao{
+    width: 40px;
+    padding: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .cabecalho{
+        padding: 0.5rem 1rem ;
+        justify-content: center;
+    }
+    .cabecalho_titulo{
+        display: none;
+    }
+    .cabecalho_subtitulo{
+        display: none;
+    }
+    .imagem_home{
+        display: block;
+    }
+}

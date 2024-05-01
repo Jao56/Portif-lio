@@ -1,0 +1,23 @@
+@import url(styles/header.css);
+@import url(styles/capa.css);
+@import url(styles/conteudo.css);
+
+:root{
+    --Fonte-Titulo: "Monda";
+    --Fonte-Subtitulo: "McLaren";
+    --Fonte-Texto: "Montserrat";
+    --Cor-Background: #101010;
+    --Cor-Titulo: #E5E1DA;
+    --Cor-Subtitulo: #DAFFFB;
+    --Cor-Texto: #176B87 ;
+    --Cor-Figuras: #E5E1DA;
+    --Cor-Principal: #04364A;
+    --Cor-Sombra: #176B87;
+    --Cor-Hover: #07475C;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--Cor-Background);
+}
